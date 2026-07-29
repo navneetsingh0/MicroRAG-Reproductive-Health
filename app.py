@@ -178,8 +178,7 @@ with tab2:
 
     if uploaded is not None:
         profile_df = pd.read_csv(uploaded)
-# Drop any unnamed index column that sometimes appears in exported CSVs
-profile_df = profile_df.loc[:, ~profile_df.columns.str.contains('^Unnamed')]
+        profile_df = profile_df.loc[:, ~profile_df.columns.str.contains('^Unnamed')]
         st.dataframe(profile_df)
 
         if st.button("Analyze Profile", type="primary", key="profile_btn"):
