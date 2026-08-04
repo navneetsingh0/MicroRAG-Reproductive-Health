@@ -1,6 +1,0 @@
-streamlit
-pandas
-numpy
-chromadb
-sentence-transformers
-google-genai
