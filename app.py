@@ -285,7 +285,6 @@ def render_hub():
     """, unsafe_allow_html=True)
 
     st.write("")
-    st.caption("NTCC Research Project · Amity University · Navneet Singh")
 
 
 # ================= MICRORAG MODULE VIEW =================
